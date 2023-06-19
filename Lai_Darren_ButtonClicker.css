@@ -3,8 +3,6 @@
   margin: 0;
 }
 
-.container {
-}
 /* top of page */ 
 header {
   width: 80%;
@@ -55,7 +53,7 @@ main {
 }
 .defLeft {
   margin-left: 10px
-  flex: 1;
+  flex 1;
 }
 .defLeft > div:nth-child(2) {
   font-style: italic;

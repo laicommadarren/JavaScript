@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; /* not sure if we learned this but I found this display property so that the border doesn't mess with the alignment of the box edges */
+}
+
+/* I chose to stretch the boxes based on the browser dimensions instead of fixing it to a size that matches the picture */ 
+header {
+  width: 80%;
+  background-color: black;
+  color: white;
+  padding: 10px 0px 10px 0px;
+  margin: auto;
+}
+header > h1 {
+  margin-left: 20px;
+}
+.yourFeed {
+  width: 80%;
+  padding: 10px 0px 10px 0px;
+  text-align: center;
+  margin: auto;
+}
+
+.bottomContainer {
+  width: 80%;
+  display: flex;
+  margin: auto;
+  justify-content: center;
+}
+
+.leftColumn {
+  margin-right: 10px;
+  flex: 1;
+}
+
+.profileContainer {
+  text-align: center;
+  border: solid black;
+}
+
+.profileContainer > img {
+  width: 70px;
+  margin-top: 20px;
+}
+
+.profileContainer > h2 {
+  margin-bottom: 20px;
+}
+
+.rightColumn {
+  margin-left: 10px;
+  flex: 3;
+}
+
+.statusContainer {
+  width: 100%; 
+  border: solid black;
+  margin-bottom: 10px;
+}
+.statusTopHalf {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 20px;
+}
+h2 {
+  flex: 1;
+}
+.statusTopHalfRight {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.buttonContainer {
+  margin-left: 40px;
+}
+button {
+  width: 60px;
+  padding: 3px 12px 3px 12px;
+  background-color: gold;
+  border: solid black;
+  box-shadow: 3px 3px black;
+  font-weight: bold;
+}
+p {
+  margin: 20px;
+}
